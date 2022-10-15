@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--ContentPage это класс, элемент, который представляет страницу приложения-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstAppXml.MainPage">
+    
+    <!--StackLayout это стопка тарелок, каждая тарелка это какой-то view-элемент, элементы распологаются один под другим-->
+    <StackLayout Padding="5,5,5,5">
+        <Label Text="Урок 5"
+               TextColor="red"
+               FontSize="25"
+               FontAttributes="Bold"/>
+
+        <!--Placeholder водный знак--> <!--Placeholder режим отображения текста как пароль (*******)-->
+        <Entry IsPassword="True"
+               Placeholder="Пароль"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Подписаться"
+                   FontSize="25"/>
+
+            <!--x:Name привязка элемента XML (CheckBox) к элементу C# (checkBox1)-->
+            <CheckBox x:Name="checkBox1"/>
+
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
