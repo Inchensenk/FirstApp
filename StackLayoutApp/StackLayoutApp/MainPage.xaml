@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayoutApp.MainPage">
+
+
+    <!--Горизонтальный стек
+    <StackLayout Margin="20" Orientation="Horizontal">
+
+        <BoxView Color="Red"/>
+        <BoxView Color="Yellow"/>
+        <BoxView Color="Blue" Margin="30, 30, 30, 30"/>
+
+
+        <BoxView Color="Green"/>
+        <BoxView Color="Orange"/>
+        <BoxView Color="purple"/>
+    </StackLayout>-->
+    
+    <!--Вертикальный стек
+    <StackLayout Orientation="Vertical">
+        <Label Text="Основные цвета"/>
+        <BoxView Color="Red"/>
+        <BoxView Color="Yellow"/>
+        <BoxView Color="Blue"/>
+
+        <Label Text="Смесовые цвета"/>
+        <BoxView Color="Green"/>
+        <BoxView Color="Orange"/>
+        <BoxView Color="purple"/>
+    </StackLayout>-->
+
+</ContentPage>
+
+    <!--StackLayout это самый простой и самый удобный для использования контейнер для элементов.
+    Потому, что он представляет элементы в виде одномерного стека, то есть элементы распологаются один под другим дибо по вертикали.
+    По типу стопки тарелок, одна лежит под другой.
+    Или может быть горизонтальный стек, где элементы расположены по горизонтали. 
+    При этом мы не задаем элементам никаких связей друг с другом и отностельно друг с другом.
+    Единственное что нужно сделать это создать контрол и добавить его в коллекцию дочерних элементов StackLayout.
+
+    У StackLayout есть 3 основных свойства: 
+    Orientation - направление стека, либо Vertical(по умолчанию), либо Horizontal
+    Spacing - свойство типа double(по умолчание 6 единиц(не пикселей а именно единиц, единица независимая от экрана устройства)), указывает расстояние между каждым дочерним элементом друг от друга, то есть интервал после каждого элемента
+    Children - коллекция в которую мы добавляем контроллы-->
+     

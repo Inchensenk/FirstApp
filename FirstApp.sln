@@ -5,17 +5,21 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp.Android", "FirstApp\FirstApp.Android\FirstApp.Android.csproj", "{9DEA7BAF-73F8-4720-9062-F0EDFB07A4AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp", "FirstApp\FirstApp\FirstApp.csproj", "{A89BF895-5FFF-4700-B4AC-CE3B06D4FC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp\FirstApp.csproj", "{A89BF895-5FFF-4700-B4AC-CE3B06D4FC42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAppXml.Android", "FirstAppXml\FirstAppXml.Android\FirstAppXml.Android.csproj", "{3BC3D5E9-DB3A-4742-B7D9-8CF63099ADEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAppXml", "FirstAppXml\FirstAppXml\FirstAppXml.csproj", "{472D564D-411A-4F22-B434-7694E5B9E058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstAppXml", "FirstAppXml\FirstAppXml\FirstAppXml.csproj", "{472D564D-411A-4F22-B434-7694E5B9E058}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstApp", "FirstApp", "{AEE0856F-8A4E-49D3-91B3-B85DE096E67D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonApp.Android", "ButtonApp\ButtonApp.Android\ButtonApp.Android.csproj", "{CCEEB0FE-5D8B-4F38-9A27-4469B014D8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonApp", "ButtonApp\ButtonApp\ButtonApp.csproj", "{BE531CD5-C962-4376-8C1E-631E6D694162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonApp", "ButtonApp\ButtonApp\ButtonApp.csproj", "{BE531CD5-C962-4376-8C1E-631E6D694162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutApp.Android", "StackLayoutApp\StackLayoutApp.Android\StackLayoutApp.Android.csproj", "{6F13A3D0-1DF1-4318-9A10-24219ED0990A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutApp", "StackLayoutApp\StackLayoutApp\StackLayoutApp.csproj", "{0DFA74E6-7708-4475-80F7-19B904A7A8DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,16 @@ Global
 		{BE531CD5-C962-4376-8C1E-631E6D694162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE531CD5-C962-4376-8C1E-631E6D694162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE531CD5-C962-4376-8C1E-631E6D694162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F13A3D0-1DF1-4318-9A10-24219ED0990A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F13A3D0-1DF1-4318-9A10-24219ED0990A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F13A3D0-1DF1-4318-9A10-24219ED0990A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F13A3D0-1DF1-4318-9A10-24219ED0990A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F13A3D0-1DF1-4318-9A10-24219ED0990A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F13A3D0-1DF1-4318-9A10-24219ED0990A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
