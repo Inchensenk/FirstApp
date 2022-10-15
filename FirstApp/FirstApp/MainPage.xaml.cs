@@ -92,6 +92,7 @@ namespace FirstApp
             layout.Children.Add(input1);
             layout.Children.Add(horizontalStack);
 
+
             //и так как StackLayout должен быть вложен в ContentPage мы не должны про это забыть
             //Контент отоброжаемого StackLayout, в котором содержаться различные контроллы, устанавливаем в Content
             Content = layout;
