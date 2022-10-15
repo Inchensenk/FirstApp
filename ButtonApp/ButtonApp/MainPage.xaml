@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ButtonApp.MainPage">
+
+    <!--x:Name="stackLayout1" это привязка StackLayout из XML к объекту бэкэнда stackLayout1-->
+    <StackLayout x:Name="stackLayout1">
+        
+        <Frame BackgroundColor="#2196F3" 
+               Padding="24" 
+               CornerRadius="0">
+            
+            <Label Text="Дарова!" 
+                   HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="36"/>
+        </Frame>
+
+        <!--Подписка на кнопку с помощью бэкэнда--> <!--x:Name="button1" привязка к кнопке через бэкенд--><!--
+        <Button x:Name="button1" 
+                Text="Не нажимай!">
+        </Button>
+
+        <Button Clicked="OnButtonClicked" Text="Закрыть"></Button>-->
+
+    </StackLayout>
+
+</ContentPage>
