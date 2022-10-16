@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlignmentApp.MainPage">
+
+    <!--Вертикальный стек-->
+    <StackLayout Margin="15">
+
+        <Label Text="Start"
+               BackgroundColor="Gray"
+               HorizontalOptions="StartAndExpand"/>
+
+        <Label Text="Center"
+               BackgroundColor="Gray"
+               HorizontalOptions="CenterAndExpand"/>
+
+        <Label Text="End"
+               BackgroundColor="Gray"
+               HorizontalOptions="EndAndExpand"/>
+
+
+        <Label Text="Fill"
+               BackgroundColor="Gray"
+               HorizontalOptions="FillAndExpand"/>
+
+
+    </StackLayout>
+
+    
+    <!--Горизонтальный стек
+    <StackLayout Margin="15" Orientation="Horizontal">
+
+        <Label Text="Start"
+               BackgroundColor="Gray"
+               HorizontalOptions="StartAndExpand"/>
+
+        <Label Text="Center"
+               BackgroundColor="Gray"
+               HorizontalOptions="CenterAndExpand"/>
+
+        <Label Text="End"
+               BackgroundColor="Gray"
+               HorizontalOptions="EndAndExpand"/>
+
+
+        <Label Text="Fill"
+               BackgroundColor="Gray"
+               HorizontalOptions="FillAndExpand"/>
+
+
+    </StackLayout>-->
+
+
+    <!--Вертикальный стек
+    <StackLayout Margin="15">
+
+        <BoxView BackgroundColor="Red"
+                 HeightRequest="1"/>
+        <Label Text="Start"
+               BackgroundColor="Gray"
+               VerticalOptions="StartAndExpand"/>
+
+        <BoxView BackgroundColor="Red"
+                 HeightRequest="5"/>
+        <Label Text="Center"
+               BackgroundColor="Gray"
+               VerticalOptions="CenterAndExpand"/>
+
+        <BoxView BackgroundColor="Red"
+                 HeightRequest="10"/>
+        <Label Text="End"
+               BackgroundColor="Gray"
+               VerticalOptions="EndAndExpand"/>
+
+        <BoxView BackgroundColor="Red"
+                 HeightRequest="15"/>
+        <Label Text="Fill"
+               BackgroundColor="Gray"
+               VerticalOptions="FillAndExpand"/>
+
+        <BoxView BackgroundColor="Red"
+                 HeightRequest="10"/>
+        
+    </StackLayout>-->
+    
+    
+    
+    
+    
+    <!--<StackLayout Margin="15">
+
+        <Label Text="Слева"
+               BackgroundColor="Gray"
+               HorizontalOptions="Start"/> --><!--HorizontalOptions="Start": Элемент притянут к левому краю экрана--><!--
+
+        <Label Text="По центру"
+               BackgroundColor="Gray"
+               HorizontalOptions="Center"/> --><!--HorizontalOptions="Center": Центрует элемент по середине--><!--
+
+        <Label Text="Справа"
+               BackgroundColor="Gray"
+               HorizontalOptions="End"/>   --><!--HorizontalOptions="End": Элемент притянут к правому краю экрана--><!--
+
+        <Label Text="Растянуть по Ox"
+               BackgroundColor="Gray"
+               HorizontalOptions="Fill"/>  --><!--HorizontalOptions="Fill": Элемент растянут на всю ширину родительского контейнера--><!--
+
+    </StackLayout>-->
+
+</ContentPage>

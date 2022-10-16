@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonApp", "ButtonApp\Butt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutApp.Android", "StackLayoutApp\StackLayoutApp.Android\StackLayoutApp.Android.csproj", "{6F13A3D0-1DF1-4318-9A10-24219ED0990A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutApp", "StackLayoutApp\StackLayoutApp\StackLayoutApp.csproj", "{0DFA74E6-7708-4475-80F7-19B904A7A8DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackLayoutApp", "StackLayoutApp\StackLayoutApp\StackLayoutApp.csproj", "{0DFA74E6-7708-4475-80F7-19B904A7A8DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignmentApp.Android", "AlignmentApp\AlignmentApp.Android\AlignmentApp.Android.csproj", "{4050D55A-9C8B-47BC-A743-5063763A95C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignmentApp", "AlignmentApp\AlignmentApp\AlignmentApp.csproj", "{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,16 @@ Global
 		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DFA74E6-7708-4475-80F7-19B904A7A8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050D55A-9C8B-47BC-A743-5063763A95C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4050D55A-9C8B-47BC-A743-5063763A95C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4050D55A-9C8B-47BC-A743-5063763A95C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4050D55A-9C8B-47BC-A743-5063763A95C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4050D55A-9C8B-47BC-A743-5063763A95C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050D55A-9C8B-47BC-A743-5063763A95C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
