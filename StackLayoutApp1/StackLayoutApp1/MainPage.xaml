@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayoutApp1.MainPage">
+
+    <!--Контейнер для сложного интерфейса--><!--
+    <StackLayout>
+        --><!--Рамка--><!--
+        <Frame BorderColor="Yellow">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+
+                <BoxView Color="Red" />
+                <Label Text="первый элемент"
+                       VerticalOptions="Center"/>
+
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="Black">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+
+                <BoxView Color="Green" />
+                <Label Text="Второйэлемент"
+                       VerticalOptions="Center"/>
+
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="Blue">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+
+                <BoxView Color="DarkCyan" />
+                <Label Text="Третий элемент"
+                       VerticalOptions="Center"/>
+
+            </StackLayout>
+        </Frame>
+    </StackLayout>-->
+
+</ContentPage>

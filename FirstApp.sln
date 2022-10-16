@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackLayoutApp", "StackLayo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignmentApp.Android", "AlignmentApp\AlignmentApp.Android\AlignmentApp.Android.csproj", "{4050D55A-9C8B-47BC-A743-5063763A95C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlignmentApp", "AlignmentApp\AlignmentApp\AlignmentApp.csproj", "{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlignmentApp", "AlignmentApp\AlignmentApp\AlignmentApp.csproj", "{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutApp1.Android", "StackLayoutApp1\StackLayoutApp1.Android\StackLayoutApp1.Android.csproj", "{119BF801-8E77-4100-9BCE-861F3F3092C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutApp1", "StackLayoutApp1\StackLayoutApp1\StackLayoutApp1.csproj", "{578E764B-9633-4889-B348-CE09675BC851}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,16 @@ Global
 		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C07A6CCF-3AF6-4D7D-8DE7-33B18FDAA00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119BF801-8E77-4100-9BCE-861F3F3092C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119BF801-8E77-4100-9BCE-861F3F3092C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119BF801-8E77-4100-9BCE-861F3F3092C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{119BF801-8E77-4100-9BCE-861F3F3092C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119BF801-8E77-4100-9BCE-861F3F3092C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119BF801-8E77-4100-9BCE-861F3F3092C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{578E764B-9633-4889-B348-CE09675BC851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578E764B-9633-4889-B348-CE09675BC851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578E764B-9633-4889-B348-CE09675BC851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578E764B-9633-4889-B348-CE09675BC851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
